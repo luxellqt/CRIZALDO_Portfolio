@@ -15,6 +15,7 @@ import {
   ArrowRight,
   Facebook
 } from 'lucide-react';
+import profilePic from './assets/pic.png';
 
 const App = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -164,7 +165,7 @@ const App = () => {
                   <div className="absolute inset-0 rounded-full overflow-hidden border-4 border-white/10 shadow-2xl relative group">
                     <div className="absolute inset-0 bg-gradient-to-t from-purple-900/50 to-transparent z-10 mix-blend-overlay"></div>
                     <img 
-                      src="src/assets/pic.png" 
+                      src={profilePic} 
                       alt="Profile" 
                       className="w-full h-full object-cover object-center rounded-full group-hover:scale-110 transition-transform duration-700"
                     />
