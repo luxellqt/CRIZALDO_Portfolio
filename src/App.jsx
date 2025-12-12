@@ -172,7 +172,7 @@ const App = () => {
                     {/* Floating Vapor Text */}
                     <div className="absolute bottom-8 left-0 right-0 text-center z-20">
                        <span className="inline-block px-3 py-1 rounded-full bg-black/60 backdrop-blur-md text-xs font-mono text-teal-300 border border-teal-500/30">
-                          EST. 2024
+                          EST. 2025
                        </span>
                     </div>
                   </div>
